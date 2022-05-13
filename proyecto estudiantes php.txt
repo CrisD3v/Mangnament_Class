@@ -1,0 +1,72 @@
+Dashboard: 
+
+- propietarios puedan agregar, editar y eliminar las clases y horarios.
+
+- propietarios puedan mover los usuarios (alumnos) de las clases. (3 punto)
+
+- tabla : estudiantes , clase y horario ... selecciona al estudiante mostrar formulario o tabla de datos.  se podra eliminar o editar las clases y horarios.
+
+Pagina principal.
+
+- Login.
+	-registro se añade un codigo para los roles.
+- pre-formulario: cargaran datos del estudiante.
+- Tabla : seleccion de las clases , seleccion de horarios.
+- succes para verificar que agendo la clase.
+
+Dashboard: 
+
+- Crud de : 
+	- Clases
+	- Horarios
+
+
+Se crea un codigo desde el dashboard para el control de registro estudiantil , tambien se utilizara para asignar el rol.
+se crea un token para el control de datos.
+
+BD
+
+TABLA DE:
+
+- Estudiantes.
+- Estudiantes_CodigoV
+- Profesores. 
+- Profesores_CodigoV
+- Administrador.
+- Clases.
+
+Requisitos :
+
+- Tabla : administradores
+
+- Id_admin
+- nombre_admin
+- token_admin
+- token_exp_admin
+- date_create_admin
+
+- Tabla : estudiantes
+
+- Id_estudiante
+- nombre_estudiante
+- token_estudiante
+- token_exp_estudiante
+- date_create_estudiante
+
+- Tabla : profesores
+
+- Id_profesor
+- nombre_profesor
+- token_-profesor
+- token_exp_profesor
+- date_create_profesor
+
+- Tabla : clases
+
+- Id_clase
+- nombre_clase
+- horario_clase
+- token_clase
+- token_exp_clase
+- date_create_clase
+- date_update_clase
